@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Add</class>
+ <widget class="QMainWindow" name="Add">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>800</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>800</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(67, 67, 67);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>100</y>
+      <width>251</width>
+      <height>391</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QPushButton" name="pushButtonFish">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(3, 218, 197);
+font: 75 14pt &quot;Arial&quot;;
+color: rgb(15, 15, 15);</string>
+       </property>
+       <property name="text">
+        <string>Fish</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButtonAmphibian">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(3, 218, 197);
+font: 75 14pt &quot;Arial&quot;;
+color: rgb(15, 15, 15);</string>
+       </property>
+       <property name="text">
+        <string>Amphibian</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButtonReptile">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(3, 218, 197);
+font: 75 14pt &quot;Arial&quot;;
+color: rgb(15, 15, 15);</string>
+       </property>
+       <property name="text">
+        <string>Reptile</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButtonBird">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(3, 218, 197);
+font: 75 14pt &quot;Arial&quot;;
+color: rgb(15, 15, 15);</string>
+       </property>
+       <property name="text">
+        <string>Bird</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButtonMammal">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(3, 218, 197);
+font: 75 14pt &quot;Arial&quot;;
+color: rgb(15, 15, 15);</string>
+       </property>
+       <property name="text">
+        <string>Mammal</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButtonSpecial">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(3, 218, 197);
+font: 75 14pt &quot;Arial&quot;;
+color: rgb(15, 15, 15);</string>
+       </property>
+       <property name="text">
+        <string>Special Animal</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QPushButton" name="pushButton_back">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>500</y>
+      <width>249</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(3, 218, 197);
+font: 75 14pt &quot;Arial&quot;;
+color: rgb(15, 15, 15);</string>
+    </property>
+    <property name="text">
+     <string>Back</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>10</y>
+      <width>521</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(64, 64, 64);
+font: 75 18pt &quot;Arial&quot;;
+background-color: rgb(187, 134, 252);</string>
+    </property>
+    <property name="text">
+     <string>    Which category is your animal in?</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
